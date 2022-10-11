@@ -1,0 +1,49 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+body {
+  padding: 0 30px 30px;
+  line-height: 1.3;
+  font-family: 'Arial'
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Arial'
+}
+a {
+  transition: all .8s;
+}
+
+a, a:visited {
+  color: firebrick;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+ul, ol {
+  font-family: 'Playfair Display'
+  font-size: .9em;
+}
+
+  ul li, ol li {
+    padding: 5px;
+  }
+
+:target {
+  background: #ccc;
+  border: solid 1px #aaa;
+  transition: all .8s;
+}
